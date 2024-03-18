@@ -20,6 +20,7 @@ const NoteState = (props) => {
         const json = await response.json()
         setNotes(json)
     }
+
     //Add A Note
     const addNote = async (title, description, tag, filePath, fileName) => {
         //toto api call
